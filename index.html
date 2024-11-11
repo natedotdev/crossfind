@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossword Game</title>
+    <link rel="stylesheet" href="/assests/style.css">
+</head>
+<body>
+  <div class="game-container">
+    <div class="header">
+        <h2>Level 1: Boat Terms</h2>
+        <p>Tap a word to see its meaning!</p>
+    </div>
+    
+    <div class="word-list">
+        <span>Words:</span>
+        <div id="words">
+            <button onclick="showMeaning('anchor')">ANCHOR</button>
+            <button onclick="showMeaning('cabin')">CABIN</button>
+            <button onclick="showMeaning('helm')">HELM</button>
+            <button onclick="showMeaning('sail')">SAIL</button>
+            <button onclick="showMeaning('hull')">HULL</button>
+            <button onclick="showMeaning('mast')">MAST</button>
+            <button onclick="showMeaning('pier')">PIER</button>
+        </div>
+    </div>
+
+    <div class="grid">
+        <!-- Crossword grid cells with letters -->
+        <div class="cell">A</div>
+        <div class="cell">N</div>
+        <div class="cell">C</div>
+        <div class="cell">H</div>
+        <div class="cell">O</div>
+        <div class="cell">R</div>
+        <div class="cell">C</div>
+        <div class="cell">A</div>
+        <div class="cell">B</div>
+        <div class="cell">I</div>
+        <div class="cell">N</div>
+        <div class="cell">H</div>
+        <div class="cell">E</div>
+        <div class="cell">L</div>
+        <div class="cell">M</div>
+        <div class="cell">S</div>
+        <div class="cell">A</div>
+        <div class="cell">I</div>
+        <div class="cell">L</div>
+        <div class="cell">P</div>
+        <div class="cell">I</div>
+        <div class="cell">E</div>
+        <div class="cell">R</div>
+        <div class="cell">M</div>
+        <div class="cell">A</div>
+        <div class="cell">S</div>
+        <div class="cell">T</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
